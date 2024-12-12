@@ -13,9 +13,9 @@
 !//////////////////////////////////
  18   format(a4,i7,a5,a5,a1,i4,4x,3f8.3,2f6.2,6x,a4,a2)
 
-      open(32,file='ionized.pdb',status='old')
-      open(33,file='micelle.pdb',status='old')
-      open(34,file='ionized-r.pdb')
+      open(32,file='merged_file.pdb',status='old')
+      open(33,file='original_cosan_structure.pdb',status='old')
+      open(34,file='corrected.pdb')
 
       read(32,*)
       read(33,*)
