@@ -1,6 +1,9 @@
 # Model for MD simulations of a COSAN anion. 
+
 -Coordinate file in pdb format
+
 -Topology file (.top) for generation of a PSF file using VMD
+
 -Force Field in CHARMM/NAMD format
 
 In using these files please cite:
