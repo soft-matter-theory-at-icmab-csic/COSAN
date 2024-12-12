@@ -2,7 +2,7 @@
 
 Data corresponding to a MD ismulation with NAMD
 
-- Coordinate file in pdb format containing COSAn, Na+ and water equilibrated at 298K
+- Coordinate file in pdb format containing COSAN, Na+ and 3826 water molecules equilibrated at 298K
 - PSF file
 - Force Field in CHARMM/NAMD format
 
