@@ -4,7 +4,8 @@ Data corresponding to a MD ismulation with NAMD
 
 - Coordinate file in pdb format containing COSAN, Na+ and 3826 water molecules equilibrated at 298K
 - PSF file
-- Force Field in CHARMM/NAMD format
+
+The size of the simulation box is 51.9 51.9 42.3
 
 In using these files please cite:
 
