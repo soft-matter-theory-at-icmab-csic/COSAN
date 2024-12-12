@@ -5,7 +5,7 @@ Data corresponding to a MD simulation with NAMD
 - Coordinate file in pdb format containing COSAN, Na+ , water and a phospholipid bilayer
 - PSF file
 
-The size of the simulation box is 51.9 51.9 42.3
+The simulation cell is 96.6129563679 0 0 0 81.1191117425 0 0 0 157.057198624 
 
 In using these files please cite:
 
