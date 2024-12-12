@@ -14,4 +14,4 @@ Please cite our publication describing this dataset as follows:
 -For any use of the COSAN-membrane data please cite: D. C. Malaspina, C. Viñas, F. Teixidor and J. Faraudo, "Atomistic Simulations of COSAN: Amphiphiles without a Head-and-Tail Design Display Head and Tail Surfactant Behavior" [Phys. Chem. Chem. Phys. 2023, 25, 27942.](https://pubs.rsc.org/en/content/articlelanding/2023/cp/d3cp03614f)
 
 
-![alternativetext](icon.png)
+![alternativetext](image.jpg)
