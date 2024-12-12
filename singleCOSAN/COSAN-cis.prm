@@ -1,0 +1,75 @@
+* >>>>>>>>>>>>>>>>> COSAN Parameter file
+* David C. Malaspina, Clara Viñas, Francesc Teixidor*, Jordi Faraudo*
+* (October 2019)
+
+
+BONDS
+!
+!V(bond) = Kb(b - b0)**2
+!
+!Kb: kcal/mole/A**2
+!b0: A
+!
+!atom type Kb          b0
+!
+!distances from gaussian calculation
+
+CX   CX    431.64      1.6810 !J. Chem. Inf. Model., 2018, 58 (9), pp 1990–1999
+CX   BX    431.64      1.7040 !J. Chem. Inf. Model., 2018, 58 (9), pp 1990–199
+BX   BX    431.64      1.7650 !J. Chem. Inf. Model., 2018, 58 (9), pp 1990–199
+Co   CX    431.64      2.0900 ! K equal to CX CX & distances from gaussian     	   	      Co   BX    431.64      2.1700 ! K equal to CX CX & distances from gaussian
+CX   HX	   769.76      1.1000 !J. Chem. Inf. Model., 2018, 58 (9), pp 1990–199
+BX   HX	   553.94      1.1850 !J. Chem. Inf. Model., 2018, 58 (9), pp 1990–199
+
+ANGLES
+!
+!V(angle) = Ktheta(Theta - Theta0)**2
+!
+!V(Urey-Bradley) = Kub(S - S0)**2
+!
+!Ktheta: kcal/mole/rad**2
+!Theta0: degrees
+!Kub: kcal/mole/A**2 (Urey-Bradley)
+!S0: A
+!
+!atom types     Ktheta    Theta0   Kub     S0
+!
+
+CX   BX   BX     43.173   103.00  !J. Chem. Inf. Model., 2018, 58 (9)
+BX   CX   BX     57.565   115.00  !J. Chem. Inf. Model., 2018, 58 (9)
+
+CX   BX   CX     43.173   100.00  !J. Chem. Inf. Model., 2018, 58 (9)
+CX   CX   BX     57.565   115.00  !J. Chem. Inf. Model., 2018, 58 (9)
+
+BX   BX   BX     43.173   104.00  !J. Chem. Inf. Model., 2018, 58 (9)
+
+BX   CX   Co     57.173   127.00  !K from CX CX BX & angle from gaussian
+CX   Co   BX     57.173    79.50  !K from CX CX BX & angle from gaussian
+BX   Co   BX     57.173    82.00  !K from CX CX BX & angle from gaussian
+BX   BX   Co     57.173   119.00  !K from CX CX BX & angle from gaussian
+CX   Co   CX     57.173   135.00  !K from CX CX BX & angle from gaussian
+Co   BX	  HX	 57.173	  109.00  !K from CX CX BX & angle from gaussian
+Co   CX	  HX	 57.173	  105.80  !K from CX CX BX & angle from gaussian
+
+CX   BX	  HX	 43.173	  130.00  !J. Chem. Inf. Model., 2018, 58 (9)
+BX   CX	  HX	 43.173	  122.00  !J. Chem. Inf. Model., 2018, 58 (9)
+
+BX   BX	  HX	 43.173	  130.00  !J. Chem. Inf. Model., 2018, 58 (9)
+CX   CX	  HX	 43.173	  122.00  !J. Chem. Inf. Model., 2018, 58 (9)
+
+
+NONBONDED 
+!
+!V(Lennard-Jones) = Eps,i,j[(Rmin,i,j/ri,j)**12 - 2(Rmin,i,j/ri,j)**6]
+!
+!epsilon: kcal/mole, Eps,i,j = sqrt(eps,i * eps,j)
+!Rmin/2: A, Rmin,i,j = Rmin/2,i + Rmin/2,j
+!
+!atom  ignored    epsilon      Rmin/2   ignored   eps,1-4       Rmin/2,1-4
+!
+HX     0.0000  -0.009800     1.666900 ! J. Chem. Inf. Model., 2018, 58 (9)
+CX     0.0000  -0.094600     1.936200 ! J. Chem. Inf. Model., 2018, 58 (9)
+BX     0.0000  -0.042600     2.420000 ! J. Chem. Inf. Model., 2018, 58 (9)
+Co     0.0000  -0.830000     2.520000 ! J. Chem. Theory Comput., 2018, 14 (2), pp 784–798 DOI: 10.1021/acs.jctc.7b01236
+
+END
