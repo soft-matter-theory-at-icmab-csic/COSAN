@@ -1,6 +1,6 @@
 # COSAN anion with Na+ counterion in a water box. 
 
-Data corresponding to a MD ismulation with NAMD
+Data corresponding to a MD simulation with NAMD
 
 - Coordinate file in pdb format containing COSAN, Na+ and 3826 water molecules equilibrated at 298K
 - PSF file
