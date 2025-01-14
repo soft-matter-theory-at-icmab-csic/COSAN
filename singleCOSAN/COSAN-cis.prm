@@ -17,7 +17,8 @@ BONDS
 CX   CX    431.64      1.6810 !J. Chem. Inf. Model., 2018, 58 (9), pp 1990–1999
 CX   BX    431.64      1.7040 !J. Chem. Inf. Model., 2018, 58 (9), pp 1990–199
 BX   BX    431.64      1.7650 !J. Chem. Inf. Model., 2018, 58 (9), pp 1990–199
-Co   CX    431.64      2.0900 ! K equal to CX CX & distances from gaussian     	   	      Co   BX    431.64      2.1700 ! K equal to CX CX & distances from gaussian
+Co   CX    431.64      2.0900 ! K equal to CX CX & distances from gaussian     	   	      
+Co   BX    431.64      2.1700 ! K equal to CX CX & distances from gaussian
 CX   HX	   769.76      1.1000 !J. Chem. Inf. Model., 2018, 58 (9), pp 1990–199
 BX   HX	   553.94      1.1850 !J. Chem. Inf. Model., 2018, 58 (9), pp 1990–199
 
